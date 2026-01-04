@@ -1,0 +1,34 @@
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Reports
+reports/
+test-results/
+playwright-report/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# Local secrets
+e2e/src/main/env/*.env
+!e2e/src/main/env/*.env.example
+
+#Vcode
+.vscode/
+
+
